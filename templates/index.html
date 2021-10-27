@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="../static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="../static/css/component.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src="../static/js/modernizr.custom.js"></script>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/jquery.cbpFWSlider.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
+</head>
+<body>
+	<!---header--->
+<div class="header">
+	<div class="wrap">
+		<div class="logo">
+			<a href="index.html"><img src="../static/images/logo.png" alt=""/></a>
+		</div>
+		<div class="signin">
+			<ul>
+				<li><a href="signin.html">Signin</a></li>
+				<li class="a"><h6>or</h6></li>
+				<li class="b"><a href="signup.html">Signup</a></li>
+				<div class="clear"> </div>	
+			</ul>
+		</div>
+		<div class="clear"> </div>	
+    </div>
+</div>
+<div class="copyrights">Collect from <a href="http://www.moobnn.com/"  title="网站模板">网站模板</a></div>
+<div class="content">
+<div class="wrap">	
+	<div class="text">	
+		<h2>Awesome Slogan of Marketing</h2>
+		<p>Sub-heading with mentioning your awesome services will be appear here</p>
+	</div>	
+	<div class="form">	
+		<input type="text" size="30" value="Enter your Email Address" onblur="if (this.value==' ') this.value = 'Enter your Email Address'" onfocus="if (this.value=='Enter your Email Address') this.value = ''" name="Enter your Email Address" id="search">
+		<span><input type="submit" value="Sign Up" id="submit" name="submit"></span>
+	</div>
+</div>
+<div class="slider">	
+<div class="wrap">
+     <div class="container">	
+		<div id="cbp-fwslider" class="cbp-fwslider">
+			<ul>
+				<li><a href="#"><img src="../static/images/slider.png" alt="img01"/></a></li>
+				<li><a href="#"><img src="../static/images/slider1.png" alt="img02"/></a></li>
+				<div class="clear"> </div>	
+			</ul>
+		 </div>
+	  <div class="clear"> </div>	
+     </div>	
+	 <div class="bottom-text">	
+		<h2>Awesome Web Design Services</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	    <p><a href="about.html">Learn More</a></p>
+	</div>	
+</div>
+</div>
+</div>
+<div class="footer-top">
+<div class="wrap">
+	<div class="left">
+        <h3>About Us</h3>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia </p>
+        <p class="a">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever </p>
+        <p><a href="about.html">Learn More</a></p>
+   </div>
+   <div class="right">
+   		<img src="../static/images/about.png" alt="">
+   </div>
+   <div class="clear"> </div>
+</div>
+</div>
+<div class="contact">
+	<div class="wrap">
+		<h3>Contact Us</h3>
+   	    <form>
+		     <form-text>
+				<input type="text" class="textbox" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+				<input type="text" class="textbox" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+				<input name="Website" type="text" class="Website" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}">
+			</form-text>
+			<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+			<input type="submit" value="Submit">
+		    <div class="clear"> </div>
+	    </form>
+	  </div>
+</div>	
+<div class="footer-bottom">
+<div class="wrap">
+   <div class="copy-right">
+		 <p>Copyright 2014. All Rights Reserved.- More Templates <a href="http://www.moobnn.com/" target="_blank" title="模板在线">模板在线</a> <a href="http://guantaow.taobao.com" target="_blank">厚朴网络 淘宝店</a>
+</p>
+   </div>
+	<div class="copy">
+   </div>
+</div>
+</div>
+
+</body>
+</html>
